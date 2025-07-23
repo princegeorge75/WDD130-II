@@ -9,9 +9,10 @@ nav {
 }
 
 nav a {
-    list-style-type: none;
+    color: rgb(43, 43, 214);
+    display: inline-block;
     padding: 5px;
-    text-decoration: double;
+    
 }
 
 h1 {
@@ -33,7 +34,7 @@ aside img {
     height: auto;
     border: #313030;
     padding: 5px;
-    box-shadow: inset;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 
 }
 
