@@ -2,6 +2,22 @@ main {
     max-width: 800px;
 }
 
+nav {
+    color: black;
+    background-color: #f0f0f0;
+    padding: 10px;
+}
+
+nav a {
+    list-style-type: none;
+    padding: 5px;
+    text-decoration: double;
+}
+
+h1 {
+    color: #313030;
+}
+
 aside {
     background-color: #f0f0f0;
     padding: 20px;
@@ -15,6 +31,10 @@ aside {
 aside img {
     width: 200px;
     height: auto;
+    border: #313030;
+    padding: 5px;
+    box-shadow: inset;
+
 }
 
 main img {
@@ -28,7 +48,6 @@ p {
 
 footer {
     text-align: center;
-    padding: 10px;
-    background-color: #aca4a462;
-    border-top: 1px solid #ccc;
+    margin-top: 15px;
+    border-top: #313030 5px solid;
 }
