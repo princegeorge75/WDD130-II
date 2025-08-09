@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400..700&family=Englebert&family=Pacifico&display=swap');
+
+
+:root{
+  --primary-color: #264853;
+  --secondary-color: #39ea16;
+  --accent1-color: #09f4e4;
+  --accent2-color: #e1785b;
+
+  --heading-font: Englebert, serif;
+  --paragarph-font: 'Edu NSW ACT Foundation', serif ;
+
+  --nav-background-color: #264853;
+  --nav-link-color: #09f4e4;
+  --nav-hover-link-color: #264853;
+  --nav-hover-background-color: #09f4e4;
+}
+
+body {
+  font-family: var(--paragraph-font);
+  max-width: 960px;
+  padding: 30px;
+  margin: 2rem;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: var(--heading-font);
+  color: var(--primary-color);
+  padding: 25px;
+}
+
+header{
+  text-decoration: bold;
+  padding: 20px;
+  background-color: var(--accent1-color);
+}
+
+p{
+  font-family: var(--paragarph-font);
+  padding: 25px;
+}
+
+nav{
+  background-color: var(--nav-background-color);
+  font-size: 1.2rem;
+  display: flex;
+}
+
+nav a{
+  display: block;
+  color: var(--nav-link-color);
+  text-decoration: none;
+  padding: 1rem;
+}
+
+nav a:link, nav a:visited{
+  color: var(--nav-link-color);
+}
+
+nav a:hover{
+  color: var(--nav-hover-link-color);
+  background-color: var(--nav-hover-background-color);
+}
+p.colored{
+  background-color: var(--nav-hover-background-color);
+  color: var(--accent2-color);
+}
